@@ -27,9 +27,7 @@ public class Vending {
                     case "5":
                     case "10":
                         n = Integer.parseInt(s);
-//                      total = total + n;
                         total += n;
-//                      i = i+1;
                         i++;
                         break;
                     case "a":
@@ -52,5 +50,6 @@ public class Vending {
 
                 }
             }
+        System.out.println("End");
         }
     }
